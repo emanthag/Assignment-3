@@ -6,16 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    .spacer {
-      height: 1500px;
-    }
-    @media (min-width: 768px) {
-      .navbar-toggler {
-        display: none;
-      }
-    }
-  </style>
+ 
 </head>
 <body>
 
@@ -37,13 +28,34 @@
       </ul>
     </div>
   </nav>
-
+  
   <!-- Page Content -->
-<div class="container mt-5">
+ <div class="container mt-5">
   <h2 class="text-center">Our Menu</h2>
   <p class="text-center">Test the menu by narrowing your browser window and clicking the hamburger icon.</p>
   <div class="spacer"></div>
 </div>
+
+<!-- Tall Scrollable Section -->
+<div class="container-fluid bg-info text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">Tall Section</h2>
+        <div style="height: 1000px;">
+          <p class="lead">
+            This section is wrapped inside a Bootstrap container for consistent spacing, yet spans the full width via container-fluid.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien sit amet lorem suscipit viverra. Mauris tincidunt ut augue et facilisis. Vivamus ac tellus non lorem tincidunt vestibulum. Etiam nec luctus eros. 
+          </p>
+          <!-- You can add more text or content blocks here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
   <!-- Bootstrap JS -->
