@@ -1,10 +1,22 @@
-
-    .spacer {
-      height: 1500px;
+  body {
+      margin: 0;
     }
     
+    .navbar {
+      margin-bottom: 0;
+    }
+    .content {
+      height: 2000px; /* just to enable scrolling */
+      padding: 20px;
+    }
+
+
+    .spacer {
+      height: 10px;
+    }
     @media (min-width: 768px) {
       .navbar-toggler {
         display: none;
       }
+    }
 
