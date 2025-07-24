@@ -1,1 +1,10 @@
 
+    .spacer {
+      height: 1500px;
+    }
+    
+    @media (min-width: 768px) {
+      .navbar-toggler {
+        display: none;
+      }
+
